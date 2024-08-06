@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Your City Name</title>
+<style>
+    body {
+        background-color: pink;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        color: blue;
+        font-size: 24px;
+        text-align: center;
+    }
+    .landmark {
+        font-size: 18px;
+        margin: 10px;
+    }
+    #landmark1 { color: green; }
+    #landmark2 { color: red; }
+    #landmark3 { color: purple; }
+    .scrolling {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: scroll 10s linear infinite;
+    }
+    @keyframes scroll {
+        from { transform: translateX(100%); }
+        to { transform: translateX(-100%); }
+    }
+</style>
+</head>
+<body>
+<h1>Your City Name</h1>
+<p class="landmark" id="landmark1">Landmark 1</p>
+<p class="landmark" id="landmark2">Landmark 2</p>
+<p class="landmark" id="landmark3">Landmark 3</p>
+<div class="scrolling">More information about the city, its history, culture, and people...</div>
+<img src="image.jpg" alt="City Image" style="display: block; margin: 0 auto; width: 100%; height: auto;">
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        h1 {
+            font-size: 6pt;
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h1>Operating System Information</h1></legend>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <p>Which of the following Operating System have you used</p>
+            <input type="checkbox" id="linux" name="used_os" value="Linux">
+            <label for="linux">Linux</label>
+            <input type="checkbox" id="windows10" name="used_os" value="Windows 10">
+            <label for="windows10">Windows 10</label>
+            <input type="checkbox" id="macintosh" name="used_os" value="Macintosh 8.0">
+            <label for="macintosh">Macintosh 8.0</label>
+            <br><br>
+            <p>Which of the Operating System do you like the best?</p>
+            <input type="radio" id="like_linux" name="like_os" value="Linux">
+            <label for="like_linux">Linux</label>
+            <input type="radio" id="like_windows10" name="like_os" value="Windows 10">
+            <label for="like_windows10">Windows 10</label>
+            <input type="radio" id="like_macintosh" name="like_os" value="Macintosh 8.0">
+            <label for="like_macintosh">Macintosh 8.0</label>
+            <br><br>
+            <p>You have completed the form</p>
+            <button type="submit">Sign Up</button>
+        </fieldset>
+    </form>
+</body>
+</html>
